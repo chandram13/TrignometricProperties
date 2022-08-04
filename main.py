@@ -31,6 +31,15 @@ def nonrightCos(a,b,c,C):
 def areaTri(a,b,C):
     area = 1/2 * a * b * Math.sin(C)
 
+# r representing radians
+def tanIdentity(r):
+    assert Math.tan(r) = Math.sin(r) / Math.cos(r)
+def sin_cos_relationship(r):
+    assert Math.sin(r) ** 2 + Math.cos(r) ** 2 = 1
+def secondRelationship(r):
+    assert 2*Math.sin(r)*Math.cos(r) = Math.sin(r)
+def thirdRelationship(r):
+    assert 2 * Math.sin(r) = Math.cos(r) ** 2 - Math.sin(r) ** 2
 
 
 
